@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src https://hbfprhnbtajlptdlkefo.supabase.co; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Equinote – Dein Reittagebuch, das mitdenkt</title>
+<meta name="description" content="Equinote ist die iPhone-App für Reiterinnen und Reiter: Training, Reitstunden, Gesundheit und Kosten an einem Ort, mit einem Wochenrückblick, der mitdenkt. Trag dich auf die Warteliste ein.">
+<meta property="og:title" content="Equinote – Dein Reittagebuch, das mitdenkt">
+<meta property="og:description" content="Training, Reitstunden, Gesundheit und Kosten an einem Ort. Bald im App Store.">
+<meta property="og:url" content="https://equinote.app/">
+<meta property="og:locale" content="de_CH">
+<meta name="theme-color" content="#4E3629">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://equinote.app/">
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt</a>
+
+<header class="top">
+  <nav class="wrap" aria-label="Hauptnavigation">
+    <a class="brand" href="./" aria-label="Equinote, Startseite">
+      <svg viewBox="0 0 36 36" aria-hidden="true"><rect width="36" height="36" rx="9" fill="#FFFDF9"/><g transform="translate(6 6)" fill="none" stroke="#4E3629" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18.8 21c0-5.5.9-11-2.5-15.2l.5-3.3-3 2.2C11.2 5 8.2 7.7 5.5 11.3c-1 1.4-1.2 3.1 0 4 1.1.8 2.5.5 3.5-.3l1.4-1.1c1.6-.6 3 .4 3.2 1.9.2 1.6-.1 3.6-.3 5.2"/><path d="M16.3 5.8c1.9 1.3 3.2 3.4 3.7 6"/><path d="M12.3 8.8h.01"/></g></svg>
+      Equinote
+    </a>
+    <div class="links">
+      <a class="opt" href="#funktionen">Funktionen</a>
+      <a class="opt" href="#datenschutz">Deine Daten</a>
+      <a href="#warteliste">Warteliste</a>
+    </div>
+  </nav>
+</header>
+
+<main id="inhalt">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="pill">Bald im App Store · für iPhone</span>
+        <h1>Dein Reittagebuch, das mitdenkt.</h1>
+        <p class="lead">Training, Reitstunden, Gesundheit und Kosten an einem Ort. Jede Woche ein Rückblick, der dir zeigt, was dich und dein Pferd weiterbringt.</p>
+      </div>
+
+      <div class="signup" id="warteliste">
+        <form id="signup-form" novalidate>
+          <h2>Sei von Anfang an dabei</h2>
+          <p class="sub">Trag dich ein. Wir schreiben dir, sobald Equinote im App Store ist.</p>
+          <label class="field" for="email">Deine E-Mail-Adresse</label>
+          <input id="email" name="email" type="email" autocomplete="email" inputmode="email" required maxlength="254" placeholder="name@beispiel.ch">
+          <div class="hp" aria-hidden="true">
+            <label for="website">Bitte leer lassen</label>
+            <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
+          </div>
+          <label class="check">
+            <input id="consent" name="consent" type="checkbox" required>
+            <span>Equinote darf mir zum Start eine E-Mail schicken. Ich kann mich jederzeit abmelden. Mehr dazu in der <a href="datenschutz.html#warteliste">Datenschutzerklärung</a>.</span>
+          </label>
+          <button class="btn" type="submit">Auf die Warteliste</button>
+          <p class="status" id="status" role="status" aria-live="polite"></p>
+        </form>
+        <div class="done" id="done" hidden tabindex="-1">
+          <div class="ok" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+          <h2>Danke, du stehst auf der Warteliste!</h2>
+          <p class="sub">Wir melden uns, sobald Equinote im App Store ist. Bis dahin kannst du auf Instagram mitverfolgen, wie die App entsteht: <a href="https://www.instagram.com/equinoteapp/" rel="noopener">@equinoteapp</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="funktionen">
+    <div class="wrap">
+      <p class="eyebrow">Was Equinote kann</p>
+      <h2 class="title">Alles rund ums Reiten, in einer schlanken App.</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div>
+          <h3>In 30 Sekunden erfasst</h3>
+          <p>Sprich nach dem Reiten kurz ins iPhone. Equinote macht daraus einen Eintrag mit Dauer, Schwerpunkten und Bewertung.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M18 15l.9 2.1L21 18l-2.1.9L18 21l-.9-2.1L15 18l2.1-.9z"/></svg></div>
+          <h3>Dein Wochenrückblick</h3>
+          <p>Jede Woche zeigt dir die KI, was gut lief und worauf du achten kannst, immer mit Bezug auf deine eigenen Einträge.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4z"/><path d="M14 5v12" stroke-dasharray="2 2"/></svg></div>
+          <h3>Reitstunden und Stundenkarten</h3>
+          <p>Halte das Feedback deiner Reitlehrerin fest und sieh auf einen Blick, wie viele Stunden noch auf deiner Karte sind.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 10h16M10 15h4M12 13v4"/></svg></div>
+          <h3>Gesundheit und Erinnerungen</h3>
+          <p>Tierarzt, Hufschmied, Impfungen und Wurmkuren: Equinote erinnert dich rechtzeitig, und der Steckbrief deines Pferdes ist immer dabei.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M4 7l11-3v3M16 13.5h.01"/></svg></div>
+          <h3>Kosten im Blick</h3>
+          <p>Ausgaben, Monatsbudget und Prognose, in Franken, Euro oder Dollar. Fremde Währungen rechnet Equinote zum Tageskurs um.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><path d="M12 12h.01"/></svg></div>
+          <h3>Ziele und Trainingsplan</h3>
+          <p>Setz dir Ziele und plane deine Woche. Equinote achtet darauf, dass dein Pferd genug Abwechslung und Pausen bekommt.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Der Wochenrückblick</p>
+        <h2 class="title">Aus Notizen werden Einsichten.</h2>
+        <p>Du schreibst oder sprichst, wie es war. Equinote erkennt Muster über Wochen: Was deinem Pferd guttut, wo ihr Fortschritte macht und was du in der nächsten Reitstunde ansprechen kannst.</p>
+        <p>Die KI nutzt du nur, wenn du einwilligst. Sie macht Vorschläge und entscheidet nichts für dich.</p>
+      </div>
+      <figure class="review" aria-label="Beispiel für einen Wochenrückblick">
+        <div class="head"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/></svg>Wochenrückblick · Beispiel</div>
+        <h3>Eine ruhige, starke Woche mit Luna</h3>
+        <ul>
+          <li>Nach der Bodenarbeit am Dienstag war Luna am Mittwoch deutlich losgelassener. Du hast das Reiten danach mit 5 von 5 bewertet.</li>
+          <li>Die Galoppübergänge kamen in drei von vier Einheiten vor. Deine Reitlehrerin hat den ruhigeren Sitz gelobt.</li>
+          <li>Seit zehn Tagen kein Ausritt mehr. Wie wäre es am Wochenende mit einer Runde ins Gelände?</li>
+        </ul>
+        <p class="note">Beispieltext. Der echte Rückblick entsteht aus deinen Einträgen.</p>
+      </figure>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <p class="eyebrow">Für alle, die reiten</p>
+      <h2 class="title">Ob eigenes Pferd, Reitbeteiligung oder Reitschule.</h2>
+      <div class="roles">
+        <article class="card"><h3>Besitzerin</h3><p>Alles rund um dein Pferd an einem Ort, von der Fütterung bis zum nächsten Termin beim Hufschmied.</p></article>
+        <article class="card"><h3>Reitbeteiligung</h3><p>Deine Tage, deine Einheiten und deine Kosten, übersichtlich und immer griffbereit.</p></article>
+        <article class="card"><h3>Reitschülerin</h3><p>Reitstunden, Feedback und Stundenkarte immer dabei, auch wenn du verschiedene Schulpferde reitest.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="datenschutz">
+    <div class="wrap">
+      <p class="eyebrow">Deine Daten</p>
+      <h2 class="title">Deine Einträge gehören dir.</h2>
+      <ul class="trust">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Kein Tracking und keine Nutzungsstatistik, weder in der App noch auf dieser Website.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Deine Daten liegen auf Servern in Frankfurt. Wir verkaufen keine Daten.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>KI-Funktionen nur mit deiner Einwilligung, jederzeit ausschaltbar.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Konto löschen direkt in der App, mit allen Daten und Fotos.</span></li>
+      </ul>
+      <p class="small mt">Alle Details in der <a href="datenschutz.html">Datenschutzerklärung</a>.</p>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <p class="eyebrow">Wer dahintersteckt</p>
+      <div class="story">
+        <p>Equinote entsteht in der Schweiz. Ich bin Julia und lerne als Erwachsene reiten, gemeinsam mit meinem jungen Pferd Diamond.</p>
+        <p>Ich habe eine App gesucht, die Reitstunden, mein Pferd und die Kosten zusammenbringt, schlank und auf Deutsch. Gefunden habe ich sie nicht. Darum baue ich Equinote.</p>
+        <p>Auf Instagram nehme ich dich mit: <a href="https://www.instagram.com/equinoteapp/" rel="noopener">@equinoteapp</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block cta">
+    <div class="wrap">
+      <h2 class="title center">Bereit für dein Reittagebuch?</h2>
+      <a class="btn" href="#warteliste">Auf die Warteliste</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Equinote · Julia Ebner, Schweiz</span>
+    <nav aria-label="Fusszeile">
+      <a href="mailto:hallo@equinote.app">hallo@equinote.app</a>
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="https://www.instagram.com/equinoteapp/" rel="noopener">Instagram</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
