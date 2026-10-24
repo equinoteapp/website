@@ -179,3 +179,9 @@ footer a { color: var(--text-secondary); }
 .small { font-size: 14px; color: var(--text-secondary); }
 .mt { margin-top: 20px; }
 .title.center { margin-left: auto; margin-right: auto; }
+
+/* Bestätigung der Warteliste (bestaetigt.html, link-abgelaufen.html) --- */
+
+.notice .ok { width: 48px; height: 48px; border-radius: 999px; background: var(--gold-surface); color: var(--gold-icon); display: flex; align-items: center; justify-content: center; margin-bottom: 16px; }
+.notice p { font-size: 18px; }
+.notice .btn { width: auto; padding: 0 28px; margin-top: 12px; text-decoration: none; }
