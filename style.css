@@ -61,6 +61,8 @@ body {
 
 a { color: var(--brand-text); text-underline-offset: 3px; }
 a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+/* Hinweis nach dem Absenden bekommt den Fokus (für Vorlesefunktion): dezenter Rahmen statt Blau. */
+.done:focus { outline: 2px solid var(--focus); outline-offset: 10px; border-radius: 14px; }
 
 .wrap { width: 100%; max-width: 1080px; margin: 0 auto; padding: 0 20px; }
 
